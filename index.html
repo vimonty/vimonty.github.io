@@ -1,0 +1,424 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>Fleuriste Vimonty</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+        <!-- CSS
+        ================================================== -->
+        <link rel="stylesheet" href="css/common.css" type="text/css">
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+        <link rel="stylesheet" href="css/dark.css" type="text/css"/>
+
+        <!-- Load jQuery
+        ================================================== -->
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div id="preloader">
+            <div id="status"></div>
+        </div>
+
+        <section id="intro" class="nav-waypoint">
+            <div id="slider-wrapper"></div> <!--Les photos sont dans le dosier images/sliders renommer les images pour avoir les memes nom que les images presente-->
+
+            <div class="overlay">
+                <!--<img id="logo" src="images/logo.png" alt="logo" />-->
+                
+		<font size="200pt"><b>Fleuriste Vimonty</b></font> 
+            </div>
+
+
+            <header id="header">
+                <a id="mobile-logo" href="#intro"><img src="images/small_logo.png" /></a>
+
+                <a id="menu-link" href="javascript:void(0);">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+
+                <nav id="navigation" role="navigation">
+                    <ul>
+                        <li><a class="current" href="#intro">Accueil</a></li>
+                        <li><a href="#about">Nos Services</a></li>
+                        <li><a href="#portfolio">Nos Créations</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+
+        <section id="about" class="page-section nav-waypoint">
+            <div class="page-title triggerAnimation animated" data-animate="fadeIn">Nos Services</div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="span12 triggerAnimation animated" data-animate="fadeIn">
+                        <!--<span class="title f20">OUR Team</span>-->
+
+                        <div id="team">
+                            <div class="team-item" style="background-image: url(images/service/fete.jpg);">
+                                <div class="description">
+                                    <p class="title f17">Anniversaire</p>
+
+                                    <p class="team-position">Fête des mères</p>
+
+                                    <p class="team-text">
+                                        Un très beau choix de montages, assortiement de fleurs coupées et plantes, tous plus beaux et colorés les uns que les autres disponible pour tous les budgets.
+				    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="team-item" style="background-image: url(images/service/mariage.jpg);">
+                                <div class="description">
+                                    <p class="title f17">Mariage</p>
+
+                                    <p class="team-position">Sous-titre</p>
+
+                                    <p class="team-text">
+                                    	Sur rendez-vous seulement, nous vous présenteront de nombreuses idées afin de rendre votre mariage parfait. Que ce soit pour le bouquet de la mariée, celui des filles d'honneur, les décorations de salles, d'églises ou de gâteau, vous trouverez votre bonheur.    
+				    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="team-item" style="background-image: url(images/service/funeraire.jpg);">
+                                <div class="description">
+                                    <p class="title f17">Funéraire</p>
+
+                                    <p class="team-position">Sous-titre</p>
+
+                                    <p class="team-text">
+                                        Avec nos trente ans d'expérience dans le domaine, nous vous offrirons une infinité de choix et de possibilité. Que ce soit pour un montage personnalisé, protocolaire, traditionnel ou plus exotique, nous sommes en mesure de vous offrir un choix, une qualité et un prix qui vous satisfera, livré en temps et en heure.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="team-item" style="background-image: url(images/service/arrangement.jpg);">
+                                <div class="description">
+                                    <p class="title f17">Arrangement</p>
+
+                                    <p class="team-position">Sous-titre</p>
+
+                                    <p class="team-text">
+                                        Nous vous offrons un grand choix pour toutes les occasions : baptême, anniversaire, promotion, remerciement, naissance et coorporatif. Nous offrons des produis de tout style, avec une grande variété de fleur et de couleur;
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="page-section nav-waypoint">
+            <div class="page-title triggerAnimation animated" data-animate="fadeIn">Nos Créations</div>
+
+            <!--Les attributs data-cat servent a lier les images avec les classes plus bas par exemple data-cat='couronnes'-->
+            <ul id="option-set" class="option-set triggerAnimation animated" data-animate="fadeInDown">
+                <li><a href="#" data-cat="*" class="selected">Tous</a></li>
+				<li><a href="#" data-cat="arrangements">Arrangements</a></li>
+                <li><a href="#" data-cat="couronnes">Couronnes</a></li>
+                <li><a href="#" data-cat="coussins">Coussins</a></li>
+                <li><a href="#" data-cat="ensembles">Ensemble funéraires</a></li>
+				<li><a href="#" data-cat="gerbes">Gerbes</a></li>
+            </ul>
+
+            <ul id="portfolio-list" class="triggerAnimation animated" data-animate="fadeIn">
+                <!--Voir le commentaire sur les data-cat ligne 71 s'utilise avec les classes toujours garder la classe portfolio-item  et element pour une image qui reste visible quand on clique sur couronnes -> class="portfolio-item element couronnes" on peut combiner les cat/gories-->
+                <li class="portfolio-item element couronnes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cour1.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cour1.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element couronnes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cour2.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cour2.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element couronnes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cour3.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cour3.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element couronnes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cour4.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cour4.jpg"><i></i></a>
+                </li>
+				
+				
+				
+				<li class="portfolio-item element coussins">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cous1.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cous1.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element coussins">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cous2.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cous2.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element coussins">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cous3.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cous3.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element coussins">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cous4.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cous4.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element coussins">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cous5.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cous5.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element coussins">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/cous6.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/cous6.jpg"><i></i></a>
+                </li>
+				
+				
+				
+				<li class="portfolio-item element arrangements">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/arr1.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/arr1.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element arrangements">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/arr2.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/arr2.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element arrangements">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/arr3.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/arr3.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element arrangements">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/arr4.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/arr4.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element arrangements">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/arr5.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/arr5.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element arrangements">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/arr6.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/arr6.jpg"><i></i></a>
+                </li>
+				
+				
+				
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens1.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens1.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens2.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens2.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens3.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens3.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens4.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens4.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens5.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens5.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens6.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens6.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element ensembles">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ens7.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ens7.jpg"><i></i></a>
+                </li>
+				
+				
+				
+				<li class="portfolio-item element gerbes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ger1.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ger1.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element gerbes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ger2.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ger2.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element gerbes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ger3.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ger3.jpg"><i></i></a>
+                </li>
+				
+				<li class="portfolio-item element gerbes">
+                    <!--Petite image taile 336 x 265-->
+                    <figure><img src="images/portfolio/ger4.jpg" /></figure>
+                    <!--Grande image taille comme tu veux-->
+                    <a class="overlay" href="images/portfolio_big/ger4.jpg"><i></i></a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="nav-waypoint">
+            <div id="gmap"></div>
+
+            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <script type="text/javascript" src="js/jquery.ui.map.full.min.js"></script>
+
+            <div id="contact-inner" class="page-section">
+                <div class="page-title white triggerAnimation animated" data-animate="fadeIn">contact</div>
+
+                <div class="container">
+                    <div id="social-group" class="triggerAnimation animated" data-animate="fadeInUp"> 
+                        <a class="icon-facebook" href="https://www.facebook.com/fleuriste.vimonty?fref=ts"></a>
+                    </div>
+
+                    <div class="row">
+                        <div class="span4 contact-item triggerAnimation animated" data-animate="fadeIn">
+                                <span class="ico"><i class="icon-mobile"></i></span>
+
+                                <p><span class="title f17">Téléphone</span>450-663-1212</p>
+                        </div>
+
+                        <div class="span4 contact-item triggerAnimation animated" data-animate="fadeIn">
+                            <span class="ico"><i class="icon-mail"></i></span>
+
+                            <p><span class="title f17">Email</span><a href="mailto:up@sitename.com">nadia@fleuristevimonty.ca</a></p>
+                        </div>
+
+                        <div class="span4 contact-item triggerAnimation animated" data-animate="fadeIn">
+                            <span class="ico"><i class="icon-location"></i></span>
+
+                            <p><span class="title f17">Addresse</span>1829 boul. des Laurentides, Laval, Qc, H7M 2P7</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <a id="to-top" href="javascript:void(0)"><i class="icon-up-open-big"></i></a>
+
+            <p id="copyright"></p> <!--Copyright du site ic-->
+        </footer>
+
+        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.run.js"></script>
+        <script type="text/javascript" src="js/jquery-packed_plugins.min.js"></script>
+        <script type="text/javascript" src="js/jquery.main.js"></script>
+
+        <!--<script type="text/javascript" src="js/device.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+        <script type="text/javascript" src="js/mb.bgndGallery.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="js/jquery.isotope.run.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.js"></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/imagelightbox.min.js"></script>
+        <script type="text/javascript" src="js/jquery.main.js"></script>-->
+
+        <!--<script type="text/javascript">
+            $(window).load(function(){
+                items_set = [
+                    {data_sizex: '1' , data_position: "left" , src : 'images/blog/2.jpg' , title : 'Standard Post', content: 'Aenean rutrum leo eget diam hendrerit, id ', date_post: '09/ 04 /2013' , comments: '25'},
+
+                    {data_sizex: '2' , data_position: "right" , src : 'images/blog/1.jpg' , title : 'Standard Post', content: 'Aenean rutrum leo eget diam hendrerit, id condimentum tellus condimentum. Etiam urna sapien, sagittis at dolor sed, laoreet', date_post: '09/ 04 /2013' , comments: '20'},
+
+                    {data_sizex: '1' , data_position: "left" , src : 'images/blog/3.jpg' , title : 'Standard Post', content: 'Aenean rutrum leo eget diam hendrerit, id ', date_post: '09/ 04 /2013' , comments: '25'},
+                ];
+
+                $('#blog-list').portfolio_addon({
+                    type : 1, // 2-4 columns simple portfolio
+                    load_count : 3,
+                    items : items_set
+                });
+            });
+        </script>-->
+    </body>
+</html>
